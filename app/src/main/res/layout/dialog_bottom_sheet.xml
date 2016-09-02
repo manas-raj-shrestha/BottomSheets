@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    android:elevation="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:drawableLeft="@drawable/ic_call"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:text="Call" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:drawableLeft="@drawable/ic_preview"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:text="Preview" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:text="Share" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:drawableLeft="@drawable/ic_link"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:text="Get Link" />
+
+</LinearLayout>
