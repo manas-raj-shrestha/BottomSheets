@@ -3,13 +3,13 @@ package com.droid.manasshrestha.bottomsheets;
 /**
  * Contact model
  */
-public class Contacts {
+public class Contact {
 
     private String contactName;
     private String contactMobileNumber;
     private String contactEmailAddress;
 
-    public Contacts(String contactName, String contactMobileNumber, String contactEmailAddress){
+    public Contact(String contactName, String contactMobileNumber, String contactEmailAddress){
         this.contactName = contactName;
         this.contactMobileNumber = contactMobileNumber;
         this.contactEmailAddress = contactEmailAddress;
