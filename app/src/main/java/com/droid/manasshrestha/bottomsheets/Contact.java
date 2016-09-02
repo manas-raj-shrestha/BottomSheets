@@ -8,11 +8,13 @@ public class Contact {
     private String contactName;
     private String contactMobileNumber;
     private String contactEmailAddress;
+    private String contactImageUrl;
 
-    public Contact(String contactName, String contactMobileNumber, String contactEmailAddress){
+    public Contact(String contactName, String contactMobileNumber, String contactEmailAddress, String contactPhotoUrl){
         this.contactName = contactName;
         this.contactMobileNumber = contactMobileNumber;
         this.contactEmailAddress = contactEmailAddress;
+        this.contactImageUrl = contactPhotoUrl;
     }
 
     public String getContactEmailAddress() {
@@ -37,5 +39,13 @@ public class Contact {
 
     public void setContactName(String contactName) {
         this.contactName = contactName;
+    }
+
+    public String getContactImageUrl() {
+        return contactImageUrl;
+    }
+
+    public void setContactImageUrl(String contactImageUrl) {
+        this.contactImageUrl = contactImageUrl;
     }
 }
